@@ -1,7 +1,7 @@
 * Using the flake
   - Ensure nix profile is enabled
-  - nix run github:<githubuser>/<reponame> (For ephemeral execution)
-  - nix profile install github:<githubuser>/<reponame> (To install)
+  - nix run github:<githubuser>/<reponame>/<branch> (For ephemeral execution)
+  - nix profile install github:<githubuser>/<reponame>/<branch> (To install)
 
 * Updating the flake for new SubTubular version
   1. Change the version number in flake.nix
